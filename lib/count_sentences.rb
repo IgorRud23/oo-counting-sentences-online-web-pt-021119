@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-self.split(/(?=[A-Z])/, 4).count_sentences
+self.split(/(?=[A-Z])/, 4)
+self.count_sentences
   end
 end
