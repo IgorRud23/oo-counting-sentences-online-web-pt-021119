@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-self.split(". ", 4)
+self.split(:upper, 4)
   end
 end
