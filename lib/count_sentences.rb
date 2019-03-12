@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-self.split(" .capitalize_letter")
+self.split(".capitalize_letter")
   end
 end
